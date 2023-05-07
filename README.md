@@ -1,2 +1,2 @@
-# sls_stats
+# sts_stats
 My Slay the Spire Stats
