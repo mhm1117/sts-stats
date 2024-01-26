@@ -1,0 +1,671 @@
+<table class="dataframe" id="runs-head">
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Character</td>
+      <td>Asc</td>
+      <td>Floor</td>
+      <td>Heart</td>
+      <td>More</td>
+    </tr>
+  </tbody>
+</table>,<table class="dataframe" id="runs">
+  <tbody>
+    <tr>
+      <th>12/14/23</th>
+      <td>SILENT</td>
+      <td>Asc 20</td>
+      <td>51</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>12/14/23</th>
+      <td>SILENT</td>
+      <td>Asc 20</td>
+      <td>16</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>08/06/23</th>
+      <td>WATCHER</td>
+      <td>Asc 18</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>07/28/23</th>
+      <td>DEFECT</td>
+      <td>Asc 16</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>07/28/23</th>
+      <td>SILENT</td>
+      <td>Asc 18</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>07/28/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 16</td>
+      <td>27</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>06/01/23</th>
+      <td>SILENT</td>
+      <td>Asc 18</td>
+      <td>21</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>05/31/23</th>
+      <td>SILENT</td>
+      <td>Asc 18</td>
+      <td>16</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>05/23/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 15</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>05/03/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 15</td>
+      <td>4</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>05/03/23</th>
+      <td>DEFECT</td>
+      <td>Asc 15</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>04/27/23</th>
+      <td>WATCHER</td>
+      <td>Asc 17</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>04/26/23</th>
+      <td>DEFECT</td>
+      <td>Asc 15</td>
+      <td>41</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>04/25/23</th>
+      <td>SILENT</td>
+      <td>Asc 17</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>04/16/23</th>
+      <td>SILENT</td>
+      <td>Asc 17</td>
+      <td>30</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>04/12/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 14</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>04/11/23</th>
+      <td>WATCHER</td>
+      <td>Asc 16</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>04/07/23</th>
+      <td>DEFECT</td>
+      <td>Asc 14</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>04/03/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 14</td>
+      <td>21</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/29/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 14</td>
+      <td>27</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/28/23</th>
+      <td>SILENT</td>
+      <td>Asc 16</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/28/23</th>
+      <td>SILENT</td>
+      <td>Asc 16</td>
+      <td>21</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/28/23</th>
+      <td>WATCHER</td>
+      <td>Asc 15</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/24/23</th>
+      <td>DEFECT</td>
+      <td>Asc 13</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/23/23</th>
+      <td>DEFECT</td>
+      <td>Asc 13</td>
+      <td>33</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/22/23</th>
+      <td>DEFECT</td>
+      <td>Asc 13</td>
+      <td>23</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/21/23</th>
+      <td>WATCHER</td>
+      <td>Asc 15</td>
+      <td>50</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/20/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 13</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/17/23</th>
+      <td>SILENT</td>
+      <td>Asc 15</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/16/23</th>
+      <td>DEFECT</td>
+      <td>Asc 13</td>
+      <td>33</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/15/23</th>
+      <td>DEFECT</td>
+      <td>Asc 13</td>
+      <td>16</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/15/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 12</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/15/23</th>
+      <td>WATCHER</td>
+      <td>Asc 14</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/13/23</th>
+      <td>DEFECT</td>
+      <td>Asc 12</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/13/23</th>
+      <td>SILENT</td>
+      <td>Asc 14</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/12/23</th>
+      <td>SILENT</td>
+      <td>Asc 14</td>
+      <td>29</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/12/23</th>
+      <td>WATCHER</td>
+      <td>Asc 13</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/12/23</th>
+      <td>SILENT</td>
+      <td>Asc 14</td>
+      <td>16</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/11/23</th>
+      <td>SILENT</td>
+      <td>Asc 14</td>
+      <td>8</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/11/23</th>
+      <td>SILENT</td>
+      <td>Asc 14</td>
+      <td>28</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/10/23</th>
+      <td>SILENT</td>
+      <td>Asc 14</td>
+      <td>7</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/10/23</th>
+      <td>SILENT</td>
+      <td>Asc 13</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/10/23</th>
+      <td>DEFECT</td>
+      <td>Asc 12</td>
+      <td>22</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/10/23</th>
+      <td>DEFECT</td>
+      <td>Asc 12</td>
+      <td>23</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/10/23</th>
+      <td>WATCHER</td>
+      <td>No Asc</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/10/23</th>
+      <td>SILENT</td>
+      <td>Asc 14</td>
+      <td>16</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/09/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 11</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/09/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 11</td>
+      <td>30</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/08/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 11</td>
+      <td>40</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/07/23</th>
+      <td>WATCHER</td>
+      <td>Asc 12</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/07/23</th>
+      <td>SILENT</td>
+      <td>Asc 12</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/07/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 11</td>
+      <td>33</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/06/23</th>
+      <td>DEFECT</td>
+      <td>Asc 11</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/05/23</th>
+      <td>SILENT</td>
+      <td>Asc 11</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/03/23</th>
+      <td>SILENT</td>
+      <td>Asc 10</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/03/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 10</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/02/23</th>
+      <td>SILENT</td>
+      <td>Asc 9</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/02/23</th>
+      <td>SILENT</td>
+      <td>Asc 10</td>
+      <td>29</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/02/23</th>
+      <td>SILENT</td>
+      <td>Asc 10</td>
+      <td>16</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/02/23</th>
+      <td>SILENT</td>
+      <td>Asc 10</td>
+      <td>16</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/02/23</th>
+      <td>WATCHER</td>
+      <td>Asc 12</td>
+      <td>38</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/01/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 9</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>02/24/23</th>
+      <td>WATCHER</td>
+      <td>Asc 11</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>02/23/23</th>
+      <td>DEFECT</td>
+      <td>Asc 10</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>02/23/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 9</td>
+      <td>33</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>02/23/23</th>
+      <td>SILENT</td>
+      <td>Asc 9</td>
+      <td>13</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>02/22/23</th>
+      <td>WATCHER</td>
+      <td>Asc 10</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>02/22/23</th>
+      <td>SILENT</td>
+      <td>Asc 8</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>02/21/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 8</td>
+      <td>33</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>02/21/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 8</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>02/21/23</th>
+      <td>SILENT</td>
+      <td>Asc 8</td>
+      <td>40</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>02/21/23</th>
+      <td>WATCHER</td>
+      <td>Asc 8</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>02/21/23</th>
+      <td>WATCHER</td>
+      <td>Asc 9</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>02/20/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 8</td>
+      <td>37</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>02/20/23</th>
+      <td>WATCHER</td>
+      <td>Asc 7</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>02/18/23</th>
+      <td>WATCHER</td>
+      <td>Asc 7</td>
+      <td>50</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>02/15/23</th>
+      <td>WATCHER</td>
+      <td>Asc 7</td>
+      <td>50</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>02/14/23</th>
+      <td>WATCHER</td>
+      <td>Asc 6</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>02/13/23</th>
+      <td>WATCHER</td>
+      <td>Asc 6</td>
+      <td>40</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>02/13/23</th>
+      <td>WATCHER</td>
+      <td>Asc 6</td>
+      <td>33</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>02/12/23</th>
+      <td>SILENT</td>
+      <td>Asc 7</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>02/05/23</th>
+      <td>SILENT</td>
+      <td>Asc 7</td>
+      <td>29</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+  </tbody>
+</table>

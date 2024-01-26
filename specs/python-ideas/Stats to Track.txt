@@ -1,0 +1,40 @@
+Stats to Track:
+
+character_chosen
+floor_reached
+score
+is_ascension_mode
+ascension_level
+master_deck
+relics
+neow_bonus + neow_cost
+victory
+
+Fun Extras:
+items_purged - see most removed cards
+campfire_rested/campfire_upgraded + campfire_choices - see how many rest/upgrade/other + when
+damage_taken - add up damage taken throughout run
+path_per_floor - see amt combats/elites/etc. + stats of what type of floor on each floor #
+card_choices - see what card taken + when
+relics_obtained - see what relic got + when
+event_choices - see what events encountered + effects from it
+boss_relics - see what boss relics picked + which ones not picked
+
+
+FOR EACH CHARACTER:
+win rate - for diff ascension levels
+avg floor reached
+high score + avg score
+best performing neow bonus
+
+
+FOR EACH CARD:
+number of times picked
+number/percent of wins + in what act picked up
+
+FOR EACH RELIC:
+number of times picked up
+number/perfect of wins + in what act picked up
+
+NEOW BONUS:
+win rates/floors reached for each neow bonus/cost

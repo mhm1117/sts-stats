@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StS Stats</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!--<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>-->
+    <script src="scripts/main.js" type="module"></script>
+  </head>
+  <body>
+    
+      <div class="background">
+        <div class="navbar">
+          <a id="logo-link" href="index.html">
+            <img src="media/sts-stats-logo.png" class="logo" href="index.html">
+          </a>
+          <div id="file-input">
+            <label for="runsFile">Select "runs" Folder</label>
+            <input type="file" id="runsFile" name="runs" multiple>
+          </div>
+          <ul id="navbar-tabs">
+            <li><a  href="index.html">Home</a></li>
+            <li id="i"><a  href="ironclad.html">Ironclad</a></li>
+            <li id="s"><a  href="silent.html">Silent</a></li>
+            <li id="d"><a  href="defect.html">Defect</a></li>
+            <li id="w"><a  href="watcher.html">Watcher</a></li>
+          </ul>
+        </div>
+
+        <div class="content">
+          <div class="home-cbox" id="overall-box">
+            <div class="char-wr-div" id="ironclad-wr">
+              <a href="ironclad.html">
+                <img src="media/Ironclad.png" alt="ironclad">
+              </a>
+              <h1></h1>
+            </div>
+            <dialog class="wr-ratio-dialog">Test</dialog>
+            <div class="char-wr-div" id="silent-wr">
+              <a href="silent.html">  
+                <img src="media/TheSilent.png" alt="thesilent">
+              </a>
+              <h1></h1>
+            </div>
+            <dialog class="wr-ratio-dialog">Test</dialog>
+            <div class="char-wr-div" id="defect-wr">
+              <a href="defect.html">
+                <img src="media/Defect.png" alt="defect">
+              </a>
+              <h1></h1>
+            </div>
+            <dialog class="wr-ratio-dialog">Test</dialog>
+            <div class="char-wr-div" id="watcher-wr">
+              <a href="watcher.html">
+                <img src="media/Watcher.png" alt="watcher">
+              </a>
+              <h1></h1>
+            </div>
+            <dialog class="wr-ratio-dialog">Test</dialog>
+          </div>
+          <div class="home-cbox" id="neow-box">
+            <h2 class="cbox-h">NEOWS BLESSING WIN RATES</h2>
+            <div id="neow-search">
+              <input type="search" id="nw-search-input" name="n" placeholder="Enter a Neow's Bonus..."/>
+            </div>
+            <div id="nw-table-div">
+              <!-- <table class="dataframe" id="nw-head">
+                <thead>
+                  <tr style="text-align: center;">
+                    <th style="min-width: 220px; border-top-left-radius: 5px;">Neow's Bonus</th>
+                    <th style="min-width: 0px">Wins</th>
+                    <th style="min-width: 0px">Games</th>
+                    <th style="min-width: 70px; border-top-right-radius: 5px;">Win Rate</th>
+                  </tr>
+                </thead>
+              </table> -->
+              <div class="scroller" id="nw-body-div"></div> 
+              <dialog id="nw-cost-modal">
+              </dialog>
+            </div>
+          </div>
+          <div class="home-cbox" id="runs-box">
+            <div id="runs-header">
+              <h1 class="cbox-h" id="runs-h">RUN HISTORY</h1>
+                <div class="dropdown" id="filt-dropdown">
+                  <button class="dropbtn" id="filter-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="filter-icon" class="h-margin-r-tiny" color="currentColor" width="24"><path fill="currentColor" d="M8.94 14.11a3.89 3.89 0 0 1 3.8 3.06H22v1.66h-9.26a3.89 3.89 0 0 1-7.6 0H2v-1.66h3.15a3.89 3.89 0 0 1 3.8-3.06Zm0 1.67a2.22 2.22 0 1 0 0 4.44 2.22 2.22 0 0 0 0-4.44ZM14.5 3a3.89 3.89 0 0 1 3.8 3.06H22v1.66h-3.7a3.89 3.89 0 0 1-7.6 0H2V6.05h8.7A3.89 3.89 0 0 1 14.5 3Zm0 1.67a2.22 2.22 0 1 0 0 4.44 2.22 2.22 0 0 0 0-4.44Z"></path></svg>
+                    Filter
+                  </button>
+                  <form class="dropdown-content">
+                      <div class="dropdown-item" id="filter-char-div">
+                        <div class="dropdown-exp-head">
+                          <div class="dropdown-exp-name">Character</div> <div class="exp-arrow">🞀</div>
+                        </div>
+                        <ul class="dropdown-exp-list">
+                          <li class="dropdown-exp-item">
+                            <input type="checkbox" id="char1" name="char1" value="ironclad"></input>
+                            <label for="char1">Ironclad</label>
+                          </li>
+                          <li class="dropdown-exp-item">
+                            <input type="checkbox" id="char2" name="char2" value="silent"></input>
+                            <label for="char2">Silent</label>
+                          </li>
+                          <li class="dropdown-exp-item">
+                            <input type="checkbox" id="char3" name="char3" value="defect"></input>
+                            <label for="char3">Defect</label>
+                          </li>
+                          <li class="dropdown-exp-item">
+                            <input type="checkbox" id="char4" name="char4" value="watcher"></input>
+                            <label for="char4">Watcher</label>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="dropdown-item" id="filter-heart-div">
+                        <div class="dropdown-exp-head">
+                          <div class="dropdown-exp-name">Heart Attempt</div> <div class="exp-arrow">🞀</div>
+                        </div>
+                        <ul class="dropdown-exp-list">
+                          <li class="dropdown-exp-item">
+                            <input type="checkbox" id="heart1" name="heart1" value="yes"></input>
+                            <label for="heart1">Yes</label>
+                          </li>
+                          <li class="dropdown-exp-item">
+                            <input type="checkbox" id="heart2" name="heart1" value="no"></input>
+                            <label for="heart2">No</label>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="dropdown-item" id="filter-win-div">
+                        <div class="dropdown-exp-head">
+                          <div class="dropdown-exp-name">Victory</div> <div class="exp-arrow">🞀</div>
+                        </div>
+                        <ul class="dropdown-exp-list">
+                          <li class="dropdown-exp-item">
+                            <input type="checkbox" id="win1" name="win1" value="yes"></input>
+                            <label for="win1">Win</label>
+                          </li>
+                          <li class="dropdown-exp-item">
+                            <input type="checkbox" id="win2" name="win2" value="no"></input>
+                            <label for="win2">Loss</label>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="dropdown-item" id="dropdown-button">
+                        <button type="submit" id="apply-btn">Apply</button>
+                      </div>
+                  </form>
+                </div>
+            </div>
+            <div id="runs-tbl-head-div"></div>
+            <div class="scroller" id="runs-table-div"></div>
+          </div>
+        </div>
+      </div>
+      
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+      
+      <!--<py-config>
+        packages = ["matplotlib", "pandas"]
+
+        [[fetch]]
+        files = ["./scripts/overall_df.txt", "./scripts/main.js"]
+      </py-config>
+
+      <py-script src="scripts/main.py">-->
+        
+      </py-script>
+  </body>
+</html>

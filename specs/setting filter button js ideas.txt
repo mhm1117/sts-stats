@@ -1,0 +1,19 @@
+let rowStrings = []
+
+function setRowFilterStrings(runRows) {
+	for each row of runRows {
+		rowStrings.append([row.char, row.heart, row.win]);
+	}
+}
+
+function setRunsFilter() {
+
+	...
+	...
+	...
+	applyButton event () {
+
+		formdata = get formdata;
+				
+	}
+}

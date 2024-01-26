@@ -1,0 +1,36 @@
+<table border="1" class="dataframe info-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>num_legs</th>
+      <th>num_wings</th>
+      <th>num_specimen_seen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>falcon</th>
+      <td>2</td>
+      <td>2</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>dog</th>
+      <td>4</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>spider</th>
+      <td>8</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>fish</th>
+      <td>0</td>
+      <td>0</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
