@@ -13,12 +13,6 @@
       <td>1.00</td>
     </tr>
     <tr>
-      <th>THREE_RARE_CARDS</th>
-      <td>4</td>
-      <td>5</td>
-      <td>0.80</td>
-    </tr>
-    <tr>
       <th>REMOVE_CARD</th>
       <td>3</td>
       <td>4</td>
@@ -39,8 +33,14 @@
     <tr>
       <th>REMOVE_TWO</th>
       <td>8</td>
-      <td>11</td>
-      <td>0.73</td>
+      <td>12</td>
+      <td>0.67</td>
+    </tr>
+    <tr>
+      <th>THREE_RARE_CARDS</th>
+      <td>4</td>
+      <td>6</td>
+      <td>0.67</td>
     </tr>
     <tr>
       <th>HUNDRED_GOLD</th>
@@ -49,15 +49,15 @@
       <td>0.67</td>
     </tr>
     <tr>
-      <th>ONE_RARE_RELIC</th>
-      <td>4</td>
-      <td>9</td>
-      <td>0.44</td>
-    </tr>
-    <tr>
       <th>THREE_ENEMY_KILL</th>
       <td>6</td>
       <td>15</td>
+      <td>0.40</td>
+    </tr>
+    <tr>
+      <th>ONE_RARE_RELIC</th>
+      <td>4</td>
+      <td>10</td>
       <td>0.40</td>
     </tr>
     <tr>
