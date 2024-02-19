@@ -17,7 +17,8 @@ My Slay the Spire stats collected, put together, and displayed all nice and usef
 - [ ] 7. Improve Documentation of js file
   - [ ] Add method headers to new + future functions
   - [ ] Add single line comments throughout code for future Mattie <3
-- [ ] 8. Make it so clicking on a character img in overall info takes you to that character's page (maybe make no tabs and make everything sort of on this one page/more interactable)
+- [x] 8. Make it so clicking on a character img in overall info takes you to that character's page (maybe make no tabs and make everything sort of on this one page/more interactable)
+- [ ] 9. Add some kind of "click for more info" when hovering over character
 
 ## Possible Fun Features/Designs
 - [ ] 1. Make Overall Info + Neow Tables more minimalist and clean
@@ -27,8 +28,8 @@ My Slay the Spire stats collected, put together, and displayed all nice and usef
   - [ ] Maybe change neow bonus + cost tables to be more interesting/colorful - in style of how neow bonus buttons look in game? - **DESIGN IN PROGRESS**
 - [ ] 2. Add sort by/filter feature for run history
   - [ ] sort by (date, asc lvl)
-  - [ ] filter (victory, character, asc lvl, heart), maybe have filter affect displayed win rates/neows on right? - **IN PROGRESS - NEXT: ADD FORM FUNCTIONALITY, MAKE CHECKBOXES ACTUALLY FILTER, MAYBE WHEN MOUSING OUT OF DROPDOWN OR ADD "APPLY" BUTTON**
-- [ ] 3. Add cool transition effect for tabs in navbar
+  - [ ] filter (victory, character, asc lvl, heart), maybe have filter affect displayed win rates/neows on right? - **IN PROGRESS - NEXT: ADD FORM FUNCTIONALITY, MAKE CHECKBOXES ACTUALLY FILTER, ~~ADD "APPLY" BUTTON TO SET FILTERS~~**
+- [ ] 3. **PROB CANCELLED** Add cool transition effect for tabs in navbar
 
 
 ## Extras
