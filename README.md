@@ -1,5 +1,5 @@
-# StS Stats Website
-My Slay the Spire stats collected, put together, and displayed all nice and useful like
+# [StS Stats Website](https://mhm1117.github.io/sts-stats/)
+My Slay the Spire stats collected, cleaned, and nicely displayed.
 
 
 ## To-Do List
