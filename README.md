@@ -31,7 +31,9 @@ My Slay the Spire stats collected, cleaned, and nicely displayed.
 - [ ] 2. Add sort by/filter feature for run history
   - [ ] sort by (date, asc lvl)
   - [ ] filter (victory, character, asc lvl, heart), maybe have filter affect displayed win rates/neows on right? - **IN PROGRESS - NEXT: ADD FORM FUNCTIONALITY, MAKE CHECKBOXES ACTUALLY FILTER, ~~ADD "APPLY" BUTTON TO SET FILTERS~~**
-- [ ] 3. **PROB CANCELLED** Add cool transition effect for tabs in navbar
+- [ ] 3. Add tutorial to explain how to use site + what things mean
+- [ ] 4. Add settings section? idk what for yet but to toggle / change some things? 
+- [ ] 5. **PROB CANCELLED** Add cool transition effect for tabs in navbar
 
 
 ## Extras
