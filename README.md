@@ -4,6 +4,8 @@ My Slay the Spire stats collected, cleaned, and nicely displayed.
 
 ## To-Do List
 
+**TOP TO-DO: HAVE RUNS FOLDER IN PROJECT W/ RUNS FROM PC + LAPTOP - NOT FOR USE BUT TO MAKE SURE BOTH ARE UP-TO DATE**
+
 - [x] 1. Search function for neow's bonus box
 - [x] 2. Show dialog box w/ neow's bonus win rates by cost when hover/click bonus in list
   - [x] a. Dialog box of by cost table doesn't show up when search used - poss solution: save cost table
