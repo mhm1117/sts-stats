@@ -99,13 +99,14 @@ html, body {
 /*-------Main Content Layout-------*/
 .content {
     width: 96%;
-    height: 60%;
+    height: 80%;
     margin: 0 2%;
     display: grid;
     grid-template-columns: 3fr 4fr;
-    grid-auto-rows: minmax(235px, auto); 
-    column-gap: 2%;
-    row-gap: 4%;
+    /* grid-auto-rows: minmax(235px, auto);  */
+    /* align-items: center; */
+    column-gap: 5%;
+    row-gap: 5%;
     /*home content boxes*/
     & .home-cbox {
         text-align: center;
@@ -242,7 +243,7 @@ dialog {
 
 /*-------Neow's Blessing Box-------*/
 #neow-box {
-    height: 260px;
+    /* height: 260px; */
     /*neow search input container*/
     & #neow-search {
         text-align: right;
@@ -316,7 +317,7 @@ dialog {
     flex-direction: column;
     align-items: center;
     height: 510px;
-    max-width: 800px;
+    /* max-width: 800px; */
     background: rgba(30, 50, 50, 0.75);
     /*run history box header - title + filter buttons*/
     & #runs-header {
@@ -444,28 +445,27 @@ dialog {
             & th, td {
                 box-sizing: border-box;
                 font-weight: bold;
-                padding: auto;
+                /* padding: auto; */
                 text-align: center;
+                /* border: 1px solid rgb(158, 158, 158); */
                 border-bottom: 1px solid rgb(158, 158, 158);
             }
             /* spacing the headings by sizing them */
-            & tr {
-                & th {
-                    width: 152px;
-                }
-                & td:nth-child(2) {
-                    width: 215px;
-                }
-                & td:nth-child(3) {
-                    width: 108px;
-                }
-                & td:nth-child(4) {
-                    width: 90px;
-                }
-                & td:nth-child(5) {
-                    width: 95px;
-                }
-            }    
+            th {
+                width: 20%;
+            }
+            tr td:nth-child(2) {
+                width: 26%;
+            }
+            tr td:nth-child(3) {
+                width: 20%;
+            }
+            tr td:nth-child(4) {
+                width: 5%;
+            }
+            tr td:nth-child(6) {
+                width: 12%;
+            }
         }
     }
     /*runs table container*/
@@ -474,6 +474,7 @@ dialog {
         width: 96%;
         /*runs table*/
         & #runs {
+            width: 100%;
             border-collapse: separate;
             border-spacing: 0 0.5em;
             color: rgb(158, 158, 158);
