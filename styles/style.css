@@ -7,10 +7,8 @@
 
 /*-------Whole Page + Backgrounds-------*/
 html, body {
-    height: 100%;
     /*home background*/
     .background {
-        width: 100%;
         height: 100vh;
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
                           url(../media/sts-stats-background.jpg);
@@ -99,10 +97,10 @@ html, body {
 /*-------Main Content Layout-------*/
 .content {
     width: 96%;
-    height: 80%;
-    margin: 0 2%;
     display: grid;
     grid-template-columns: 3fr 4fr;
+    height: 75vh;
+    margin: auto;
     /* grid-auto-rows: minmax(235px, auto);  */
     /* align-items: center; */
     column-gap: 5%;
@@ -199,9 +197,9 @@ dialog {
             /* border: 1px solid black; */
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-shrink: 1;
-        margin: 2em 1em 2em 1em;
+        margin: 2em 1em;
         color: rgb(158,158,158);
         /*character imgs*/
         & img {
@@ -243,11 +241,13 @@ dialog {
 
 /*-------Neow's Blessing Box-------*/
 #neow-box {
-    /* height: 260px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     /*neow search input container*/
     & #neow-search {
-        text-align: right;
-        margin: 0.2em 1.5em;
+        align-self: last baseline;
+        margin: 1.5em auto 0.5em 3em;
         /*all inside search container*/
         & * {
             color: black;
@@ -270,23 +270,20 @@ dialog {
         }
     }
     /*neow win rates table*/
-    & #nw-table-div {
-        margin: 0.5em auto;
-        box-sizing: border-box;
-        max-width: 540px;
+    & #nw-body-div {
+        align-self: stretch;
+        margin: 0 3em;
+        margin-bottom: auto;
+        height: 25vh;
+        border-radius: 5px;
         box-shadow: 5px 5px 10px 2px rgba(0,0,0,.3);
-        /*neow table head*/
-        & #nw-head th {
-            padding: 0.25em 0.2em;
+        #nw-body {
+            width: 100%;
+            padding: auto;
         }
-        /*neow table body*/
-        & #nw-body-div {
-            max-height: 168px;
-            border-radius: 5px;
-            & tr {
-                height: 42px;
-                font-size: 1.1em;
-            }
+        & tr {
+            height: 42px;
+            font-size: 1.1em;
         }
     }
     /*neow cost table dialog boxes*/
@@ -313,11 +310,10 @@ dialog {
 
 /*-------Run History Box-------*/
 #runs-box {
+    max-height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 510px;
-    /* max-width: 800px; */
     background: rgba(30, 50, 50, 0.75);
     /*run history box header - title + filter buttons*/
     & #runs-header {
@@ -472,6 +468,7 @@ dialog {
     & #runs-table-div {
         padding: 0 0.5em 0 0.5em;
         width: 96%;
+        max-height: 100%;
         /*runs table*/
         & #runs {
             width: 100%;
