@@ -1,6 +1,12 @@
 <table class="dataframe" id="nw-body">
   <tbody>
     <tr>
+      <th>HUNDRED_GOLD</th>
+      <td>4</td>
+      <td>6</td>
+      <td>0.67</td>
+    </tr>
+    <tr>
       <th>ONE_RANDOM_RARE_CARD</th>
       <td>2</td>
       <td>3</td>
@@ -14,26 +20,14 @@
     </tr>
     <tr>
       <th>BOSS_RELIC</th>
-      <td>3</td>
-      <td>5</td>
-      <td>0.60</td>
-    </tr>
-    <tr>
-      <th>HUNDRED_GOLD</th>
-      <td>3</td>
-      <td>5</td>
-      <td>0.60</td>
+      <td>4</td>
+      <td>7</td>
+      <td>0.57</td>
     </tr>
     <tr>
       <th>RANDOM_COLORLESS_2</th>
       <td>5</td>
       <td>10</td>
-      <td>0.50</td>
-    </tr>
-    <tr>
-      <th>THREE_RARE_CARDS</th>
-      <td>4</td>
-      <td>8</td>
       <td>0.50</td>
     </tr>
     <tr>
@@ -43,6 +37,12 @@
       <td>0.45</td>
     </tr>
     <tr>
+      <th>THREE_RARE_CARDS</th>
+      <td>4</td>
+      <td>9</td>
+      <td>0.44</td>
+    </tr>
+    <tr>
       <th>REMOVE_CARD</th>
       <td>3</td>
       <td>7</td>
@@ -50,15 +50,15 @@
     </tr>
     <tr>
       <th>THREE_ENEMY_KILL</th>
-      <td>9</td>
-      <td>23</td>
-      <td>0.39</td>
+      <td>10</td>
+      <td>25</td>
+      <td>0.40</td>
     </tr>
     <tr>
       <th>TWO_FIFTY_GOLD</th>
       <td>3</td>
-      <td>8</td>
-      <td>0.38</td>
+      <td>9</td>
+      <td>0.33</td>
     </tr>
     <tr>
       <th>ONE_RARE_RELIC</th>
@@ -81,19 +81,19 @@
     <tr>
       <th>TRANSFORM_TWO_CARDS</th>
       <td>1</td>
-      <td>9</td>
-      <td>0.11</td>
+      <td>10</td>
+      <td>0.10</td>
     </tr>
     <tr>
       <th>THREE_CARDS</th>
       <td>0</td>
-      <td>4</td>
+      <td>5</td>
       <td>0.00</td>
     </tr>
     <tr>
       <th>UPGRADE_CARD</th>
       <td>0</td>
-      <td>2</td>
+      <td>3</td>
       <td>0.00</td>
     </tr>
   </tbody>
