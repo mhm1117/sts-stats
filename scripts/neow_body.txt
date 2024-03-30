@@ -2,9 +2,9 @@
   <tbody>
     <tr>
       <th>HUNDRED_GOLD</th>
-      <td>4</td>
-      <td>6</td>
-      <td>0.67</td>
+      <td>5</td>
+      <td>7</td>
+      <td>0.71</td>
     </tr>
     <tr>
       <th>ONE_RANDOM_RARE_CARD</th>
@@ -37,9 +37,9 @@
       <td>0.45</td>
     </tr>
     <tr>
-      <th>THREE_RARE_CARDS</th>
-      <td>4</td>
-      <td>9</td>
+      <th>THREE_ENEMY_KILL</th>
+      <td>12</td>
+      <td>27</td>
       <td>0.44</td>
     </tr>
     <tr>
@@ -49,16 +49,16 @@
       <td>0.43</td>
     </tr>
     <tr>
-      <th>THREE_ENEMY_KILL</th>
+      <th>THREE_RARE_CARDS</th>
+      <td>4</td>
       <td>10</td>
-      <td>25</td>
       <td>0.40</td>
     </tr>
     <tr>
       <th>TWO_FIFTY_GOLD</th>
       <td>3</td>
-      <td>9</td>
-      <td>0.33</td>
+      <td>10</td>
+      <td>0.30</td>
     </tr>
     <tr>
       <th>ONE_RARE_RELIC</th>
