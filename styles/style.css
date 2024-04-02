@@ -389,12 +389,12 @@ dialog {
                         }
                     }
                 }
-                & .dropdown-item:not(#dropdown-button):hover {
+                & .dropdown-item:not(#dropdown-button-div):hover {
                     background-color: #8b8b8b;
                 }
-                & #dropdown-button {
+                & #dropdown-button-div {
                     cursor: default;
-                    & #apply-btn {
+                    & .dropdown-btns {
                         color: #1F2320;
                         font-weight: bold;
                         cursor: pointer;
@@ -402,7 +402,7 @@ dialog {
                         border: 1px #1F2320 solid;
                         border-radius: 3px;
                     }
-                    & #apply-btn:hover {
+                    & .dropdown-btns:hover {
                         background-color: #d9d9d9;
                     }
                 }

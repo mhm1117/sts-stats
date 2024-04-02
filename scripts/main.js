@@ -3,6 +3,8 @@ const tableR = "5px";
 const neowBonuses = {};
 let costTblsHTML;
 let nbLength;
+let filterValues = [];
+const filterLogoHtml = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="filter-icon" class="h-margin-r-tiny" color="currentColor" width="24"><path fill="currentColor" d="M8.94 14.11a3.89 3.89 0 0 1 3.8 3.06H22v1.66h-9.26a3.89 3.89 0 0 1-7.6 0H2v-1.66h3.15a3.89 3.89 0 0 1 3.8-3.06Zm0 1.67a2.22 2.22 0 1 0 0 4.44 2.22 2.22 0 0 0 0-4.44ZM14.5 3a3.89 3.89 0 0 1 3.8 3.06H22v1.66h-3.7a3.89 3.89 0 0 1-7.6 0H2V6.05h8.7A3.89 3.89 0 0 1 14.5 3Zm0 1.67a2.22 2.22 0 1 0 0 4.44 2.22 2.22 0 0 0 0-4.44Z"></path></svg>'
 
 /**file declarations*/
 let overall_f = "./scripts/overall_wr_info.txt";
@@ -107,10 +109,15 @@ async function setRunsBox(file) {
     let rows = document.querySelectorAll("#runs tr");
     runsHeadDiv.querySelector("tr").cells[4].innerText = "❤";
     runsHeadDiv.querySelector("th").innerHTML = "Date";
+
+    // add total/inital number of rows to filter button display
+    let filterBtn = document.getElementById("filter-btn");
+    filterBtn.innerHTML = filterLogoHtml + 'Filter (' + rows.length + ')';
+
+    // fill filterValues array with tuple of filter values (character, heart, win) for each row
+    setRunFilterValues(rows);
     // set colors/emojis/more info column of rows
     setRunsRows(rows);
-
-
 }
 
 function setRunsRows(rows) {
@@ -255,18 +262,22 @@ function resetCostTables(rows) {
 
 }
 
-function setRunsFilterButton() {
+/**
+ * Sets up functionality of runs filter dropdown menu, submit filter buttons, and filtering.
+ */
+function setRunsFilterButton(test) {
 
+    // gets all the filter menu sections that will have a dropdown menu
     let dropdownItems = document.querySelectorAll(".dropdown-item");
-    // set up event listener for the arrows and display of dropdown items 
-    for (let item of dropdownItems) {
-        let head = item.querySelector(".dropdown-exp-head");
-        let list = item.querySelector(".dropdown-exp-list");
+    // set up event listener for the arrows and display of dropdown items
+    for (let item of dropdownItems) {                               // loops through each filter menu section
+        let head = item.querySelector(".dropdown-exp-head");        // gets title of filter section
+        let list = item.querySelector(".dropdown-exp-list");        // gets first list item in that section
 
-        if (head == null)
+        if (head == null)                                           // if no title (ie. is button section, skip)
             continue;
 
-        let exp = "closed";
+        let exp = "closed";                                         // 
         head.addEventListener("click", (event) => {
 
             if (exp == "closed") {
@@ -290,25 +301,54 @@ function setRunsFilterButton() {
         const formData = new FormData(form);
 
         let allRows = document.querySelectorAll("#runs tr");
-        allRows.forEach(row => {
-            row.style.display = "none";
-        });
-        for (const pair of formData.entries()) {
-            if (pair[0].includes("char")) {
-                
-            }
-            if (pair[0].includes("heart")) {
-                console.log("heart");
-            }
-            if (pair[0].includes("win")) {
-                console.log("win");
-            }
 
+        let filters = [{"ironclad": 0, "silent": 0, "defect": 0, "watcher": 0},
+                       {"yesH": 0, "noH": 0},
+                       {"win": 0, "loss": 0}];
+        let fCategories = {"char": 0, "heart": 0, "win": 0};
+
+        let x = 0;
+        for (let c in fCategories) {
+            let i = 0;
+            for (let f of formData.getAll(c)) {
+                filters[x][f] = 1;
+                i++;
+            }
+            fCategories[c] = i;
+            x++;
         }
+        let numRows = allRows.length;
+        allRows.forEach(row => {
+            x = 0;
+            for (let c of Object.values(fCategories)) {
+                if (c) {
+                    if (filters[x][filterValues[row.id][x]]) {
+                        row.style.display = "table-row";
+                    } else {
+                        row.style.display = "none";
+                        numRows--;
+                        break;
+                    }
+                }
+                else {
+                    row.style.display = "table-row";
+                }
+                x++;
+            }
+        });
+        let filterBtn = document.getElementById("filter-btn");
+        filterBtn.innerHTML = filterLogoHtml + 'Filter (' + numRows + ')';
     }
 }
 
-function testFilters() {
+function setRunFilterValues(rows) {
 
-    
+    // example filterArray = ['defect', 'yesH', 'Y']
+    let i = 0;
+    for (let row of rows) {
+        let filterArray = [(row.cells[1].innerText.split(' ')[0]).toLowerCase(), row.cells[4].innerText == "Yes" ? "yesH" : "noH", row.cells[5].innerText == "Y" ? "win" : "loss"]
+        row.id = "" + i;
+        i++;
+        filterValues.push(filterArray);
+    }
 }
