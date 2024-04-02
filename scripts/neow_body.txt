@@ -37,6 +37,12 @@
       <td>0.45</td>
     </tr>
     <tr>
+      <th>THREE_RARE_CARDS</th>
+      <td>5</td>
+      <td>11</td>
+      <td>0.45</td>
+    </tr>
+    <tr>
       <th>THREE_ENEMY_KILL</th>
       <td>12</td>
       <td>27</td>
@@ -49,12 +55,6 @@
       <td>0.43</td>
     </tr>
     <tr>
-      <th>THREE_RARE_CARDS</th>
-      <td>4</td>
-      <td>10</td>
-      <td>0.40</td>
-    </tr>
-    <tr>
       <th>TWO_FIFTY_GOLD</th>
       <td>3</td>
       <td>10</td>
@@ -63,8 +63,8 @@
     <tr>
       <th>ONE_RARE_RELIC</th>
       <td>4</td>
-      <td>16</td>
-      <td>0.25</td>
+      <td>17</td>
+      <td>0.24</td>
     </tr>
     <tr>
       <th>RANDOM_COMMON_RELIC</th>
@@ -73,16 +73,16 @@
       <td>0.22</td>
     </tr>
     <tr>
+      <th>TRANSFORM_TWO_CARDS</th>
+      <td>2</td>
+      <td>11</td>
+      <td>0.18</td>
+    </tr>
+    <tr>
       <th>TRANSFORM_CARD</th>
       <td>1</td>
       <td>8</td>
       <td>0.12</td>
-    </tr>
-    <tr>
-      <th>TRANSFORM_TWO_CARDS</th>
-      <td>1</td>
-      <td>10</td>
-      <td>0.10</td>
     </tr>
     <tr>
       <th>THREE_CARDS</th>
