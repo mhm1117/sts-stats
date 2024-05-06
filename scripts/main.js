@@ -51,7 +51,7 @@ async function setOverallInfoBox(file) {
             let div_rect = div.getBoundingClientRect();                                     // gets size/relative position info of img/% parent div
             dialogs[i].style.bottom = (window.innerHeight - div_rect.top - 5) + "px";       // sets postion of dialog box to a bit up from div
             dialogs[i].style.left = div_rect.right + "px";                                  // and a bit right of div
-            dialogs[i].innerHTML = "<h1>" + wr[1] + " / " + wr[2] + "</h1>";                // sets inner html to show wins/games of char
+            dialogs[i].innerHTML = "<h1>" + wr[1] + " / " + wr[2] + "<br>❤" + "</h1>";                // sets inner html to show wins/games of char
             dialogs[i].show();                                                              // shows dialog when hovering
         });
         /* adds event when mousing out of character image, hides win/games dialog box */
