@@ -6,16 +6,22 @@ My Slay the Spire stats collected, cleaned, and nicely displayed.
 - make sure runs seem up to date
 
 ## To-Do List
+
+### Admin / Documentation
 - [ ] Clean up project folders (esp. specs/scripts, rename jupityer notebook, like where html txt files from python are stored, where python stuff is stored, etc.)
-- [ ] Make runs in run history clickable to bring up large dialog box of relic, card, etc. info. - need to gather info in Python first
 - [ ] **IN PROGRESS** Improve Documentation of js file 
   - [ ] **IN PROGRESS** Add method headers to new + future functions
   - [ ] **IN PROGRESS** Add single line comments throughout code for future Mattie <3
+### Features / Code / Design
+- [ ] Make runs in run history clickable to bring up large dialog box of relic, card, etc. info. - need to gather info in Python first
 - [ ] Start adding stuff to character pages, like detailed win rates/heart info/etc. and the making the page look clean and pretty
   - [ ] improve design of character pages
   - [ ] outline + start on basics of what character pages will consist of/content will look like
   - [ ] **Or maybe make it just open dialog box and you can expand if you want to? not sure what would look cooler/be more functional**
-- [ ] Add some kind of "click for more info" when hovering over character 
+- [ ] Overall Info Box Display Edits
+  - [ ] **IN PROGRESS** When hovering maybe, show highest asc lvl heart kill for each chararacter
+    - [ ] in python code, writing alg to get runs that went for heart, then need to get highest asc lvl for each char from those
+  - [ ] Add some kind of "click for more info/go to page" when hovering over character 
 
 ## Possible Fun Features/Designs
 - [ ] Have some display of all wins / games ratio? Maybe in one of top corners? Or in run history section that gets changed when filtering?

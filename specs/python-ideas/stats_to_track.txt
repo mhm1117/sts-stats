@@ -38,3 +38,7 @@ number/perfect of wins + in what act picked up
 
 NEOW BONUS:
 win rates/floors reached for each neow bonus/cost
+
+HEART INFO:
+- ruby key: campfire_choice_key = RECALL
+- 
