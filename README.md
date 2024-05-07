@@ -19,8 +19,8 @@ My Slay the Spire stats collected, cleaned, and nicely displayed.
   - [ ] outline + start on basics of what character pages will consist of/content will look like
   - [ ] **Or maybe make it just open dialog box and you can expand if you want to? not sure what would look cooler/be more functional**
 - [ ] Overall Info Box Display Edits
-  - [ ] **IN PROGRESS** When hovering maybe, show highest asc lvl heart kill for each chararacter
-    - [ ] in python code, writing alg to get runs that went for heart, then need to get highest asc lvl for each char from those
+  - [x] When hovering maybe, show highest asc lvl heart kill for each chararacter
+    - [x] in python code, writing alg to get runs that went for heart, then need to get highest asc lvl for each char from those
   - [ ] Add some kind of "click for more info/go to page" when hovering over character 
 
 ## Possible Fun Features/Designs
