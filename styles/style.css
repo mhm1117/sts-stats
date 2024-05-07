@@ -457,10 +457,10 @@ dialog {
                     width: 215px;
                 }
                 & td:nth-child(3) {
-                    width: 108px;
+                    width: 112px;
                 }
                 & td:nth-child(4) {
-                    width: 90px;
+                    width: 100px;
                 }
                 & td:nth-child(5) {
                     width: 95px;
