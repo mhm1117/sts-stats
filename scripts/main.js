@@ -31,8 +31,10 @@ async function setOverallInfoBox(file) {
     let myText = await myObject.text();                                                     // converts file into text, waits till myObject has value
 
     let h1_arr = document.querySelectorAll("#overall-box h1");                              // gets array of h1 elements that will display win %s
-    let dialogs = document.querySelectorAll(".wr-ratio-dialog");                            // get dialog boxes to display win / games ratios
-    let wr_info_arr = myText.replace('[[','').replace(']]','').split('], [');               // splits up wr info text from file into usuable 2d array
+    let dialogs = document.querySelectorAll(".wr-ratio-dialog");                            // get dialog boxes to display win / games ratios / heart win levels
+    let info_strs = myText.split(':');                                                      // splits txt doc into 2 strings, 1 w/ wrs + 1 w/ heart levels
+    let wr_info_arr = info_strs[0].replace('[[','').replace(']]','').split('], [');         // splits up wr info text from file into usuable 2d array
+    let hrt_lvls = JSON.parse(info_strs[1]);                                                // parses string of heart levels array into actual array
     for (let i in wr_info_arr) {                                                            // for wr array of each char (contains %, wins, games)
         /* creates new arr of wr info + convert to floats */                                       
         let wr = wr_info_arr[i].split(', ');                                                
@@ -51,7 +53,7 @@ async function setOverallInfoBox(file) {
             let div_rect = div.getBoundingClientRect();                                     // gets size/relative position info of img/% parent div
             dialogs[i].style.bottom = (window.innerHeight - div_rect.top - 5) + "px";       // sets postion of dialog box to a bit up from div
             dialogs[i].style.left = div_rect.right + "px";                                  // and a bit right of div
-            dialogs[i].innerHTML = "<h1>" + wr[1] + " / " + wr[2] + "<br>❤" + "</h1>";                // sets inner html to show wins/games of char
+            dialogs[i].innerHTML = "<h1>" + wr[1] + " / " + wr[2] + "<br>❤ " + hrt_lvls[i] + "</h1>";                // sets inner html to show wins/games of char
             dialogs[i].show();                                                              // shows dialog when hovering
         });
         /* adds event when mousing out of character image, hides win/games dialog box */
