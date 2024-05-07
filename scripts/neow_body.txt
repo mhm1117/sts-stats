@@ -32,21 +32,15 @@
     </tr>
     <tr>
       <th>REMOVE_TWO</th>
-      <td>10</td>
-      <td>22</td>
-      <td>0.45</td>
-    </tr>
-    <tr>
-      <th>THREE_RARE_CARDS</th>
-      <td>5</td>
       <td>11</td>
-      <td>0.45</td>
+      <td>23</td>
+      <td>0.48</td>
     </tr>
     <tr>
       <th>THREE_ENEMY_KILL</th>
-      <td>12</td>
-      <td>27</td>
-      <td>0.44</td>
+      <td>13</td>
+      <td>28</td>
+      <td>0.46</td>
     </tr>
     <tr>
       <th>REMOVE_CARD</th>
@@ -55,16 +49,22 @@
       <td>0.43</td>
     </tr>
     <tr>
+      <th>THREE_RARE_CARDS</th>
+      <td>5</td>
+      <td>12</td>
+      <td>0.42</td>
+    </tr>
+    <tr>
+      <th>ONE_RARE_RELIC</th>
+      <td>6</td>
+      <td>20</td>
+      <td>0.30</td>
+    </tr>
+    <tr>
       <th>TWO_FIFTY_GOLD</th>
       <td>3</td>
       <td>10</td>
       <td>0.30</td>
-    </tr>
-    <tr>
-      <th>ONE_RARE_RELIC</th>
-      <td>5</td>
-      <td>18</td>
-      <td>0.28</td>
     </tr>
     <tr>
       <th>RANDOM_COMMON_RELIC</th>
