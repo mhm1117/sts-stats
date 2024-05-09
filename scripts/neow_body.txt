@@ -63,8 +63,8 @@
     <tr>
       <th>TWO_FIFTY_GOLD</th>
       <td>3</td>
-      <td>10</td>
-      <td>0.30</td>
+      <td>11</td>
+      <td>0.27</td>
     </tr>
     <tr>
       <th>RANDOM_COMMON_RELIC</th>
