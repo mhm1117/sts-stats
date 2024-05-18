@@ -12,6 +12,30 @@
 </table>,<table class="dataframe" id="runs">
   <tbody>
     <tr>
+      <th>05/16/24</th>
+      <td>DEFECT</td>
+      <td>Asc 2</td>
+      <td>55</td>
+      <td>Yes</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>05/14/24</th>
+      <td>WATCHER</td>
+      <td>Asc 3</td>
+      <td>55</td>
+      <td>Yes</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>05/09/24</th>
+      <td>DEFECT</td>
+      <td>Asc 2</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
       <th>05/08/24</th>
       <td>DEFECT</td>
       <td>Asc 2</td>
@@ -117,14 +141,6 @@
     </tr>
     <tr>
       <th>03/25/24</th>
-      <td>DEFECT</td>
-      <td>Asc 1</td>
-      <td>56</td>
-      <td>Yes</td>
-      <td>Y</td>
-    </tr>
-    <tr>
-      <th>03/25/24</th>
       <td>SILENT</td>
       <td>Asc 1</td>
       <td>55</td>
@@ -140,8 +156,8 @@
       <td>Y</td>
     </tr>
     <tr>
-      <th>03/24/24</th>
-      <td>WATCHER</td>
+      <th>03/25/24</th>
+      <td>DEFECT</td>
       <td>Asc 1</td>
       <td>56</td>
       <td>Yes</td>
@@ -153,6 +169,14 @@
       <td>Asc 20</td>
       <td>52</td>
       <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/24/24</th>
+      <td>WATCHER</td>
+      <td>Asc 1</td>
+      <td>56</td>
+      <td>Yes</td>
       <td>Y</td>
     </tr>
     <tr>
@@ -247,7 +271,7 @@
       <th>02/15/24</th>
       <td>DEFECT</td>
       <td>Asc 20</td>
-      <td>13</td>
+      <td>33</td>
       <td>No</td>
       <td>N</td>
     </tr>
@@ -255,7 +279,7 @@
       <th>02/15/24</th>
       <td>DEFECT</td>
       <td>Asc 20</td>
-      <td>33</td>
+      <td>13</td>
       <td>No</td>
       <td>N</td>
     </tr>
@@ -311,7 +335,7 @@
       <th>01/21/24</th>
       <td>IRONCLAD</td>
       <td>Asc 18</td>
-      <td>24</td>
+      <td>33</td>
       <td>No</td>
       <td>N</td>
     </tr>
@@ -319,7 +343,7 @@
       <th>01/21/24</th>
       <td>IRONCLAD</td>
       <td>Asc 18</td>
-      <td>33</td>
+      <td>24</td>
       <td>No</td>
       <td>N</td>
     </tr>
@@ -421,17 +445,17 @@
     </tr>
     <tr>
       <th>11/21/23</th>
-      <td>DEFECT</td>
-      <td>Asc 19</td>
-      <td>22</td>
+      <td>SILENT</td>
+      <td>Asc 20</td>
+      <td>16</td>
       <td>No</td>
       <td>N</td>
     </tr>
     <tr>
       <th>11/21/23</th>
-      <td>SILENT</td>
-      <td>Asc 20</td>
-      <td>16</td>
+      <td>DEFECT</td>
+      <td>Asc 19</td>
+      <td>22</td>
       <td>No</td>
       <td>N</td>
     </tr>
@@ -599,7 +623,7 @@
       <th>09/24/23</th>
       <td>SILENT</td>
       <td>Asc 19</td>
-      <td>16</td>
+      <td>7</td>
       <td>No</td>
       <td>N</td>
     </tr>
@@ -615,7 +639,7 @@
       <th>09/24/23</th>
       <td>SILENT</td>
       <td>Asc 19</td>
-      <td>7</td>
+      <td>16</td>
       <td>No</td>
       <td>N</td>
     </tr>
@@ -741,19 +765,19 @@
     </tr>
     <tr>
       <th>07/28/23</th>
-      <td>IRONCLAD</td>
-      <td>Asc 16</td>
-      <td>27</td>
-      <td>No</td>
-      <td>N</td>
-    </tr>
-    <tr>
-      <th>07/28/23</th>
       <td>SILENT</td>
       <td>Asc 18</td>
       <td>51</td>
       <td>No</td>
       <td>Y</td>
+    </tr>
+    <tr>
+      <th>07/28/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 16</td>
+      <td>27</td>
+      <td>No</td>
+      <td>N</td>
     </tr>
     <tr>
       <th>07/28/23</th>
@@ -789,19 +813,19 @@
     </tr>
     <tr>
       <th>05/03/23</th>
-      <td>DEFECT</td>
-      <td>Asc 15</td>
-      <td>51</td>
-      <td>No</td>
-      <td>Y</td>
-    </tr>
-    <tr>
-      <th>05/03/23</th>
       <td>IRONCLAD</td>
       <td>Asc 15</td>
       <td>4</td>
       <td>No</td>
       <td>N</td>
+    </tr>
+    <tr>
+      <th>05/03/23</th>
+      <td>DEFECT</td>
+      <td>Asc 15</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
     </tr>
     <tr>
       <th>04/27/23</th>
@@ -887,17 +911,17 @@
       <th>03/28/23</th>
       <td>SILENT</td>
       <td>Asc 16</td>
-      <td>51</td>
+      <td>21</td>
       <td>No</td>
-      <td>Y</td>
+      <td>N</td>
     </tr>
     <tr>
       <th>03/28/23</th>
       <td>SILENT</td>
       <td>Asc 16</td>
-      <td>21</td>
+      <td>51</td>
       <td>No</td>
-      <td>N</td>
+      <td>Y</td>
     </tr>
     <tr>
       <th>03/24/23</th>
@@ -957,16 +981,16 @@
     </tr>
     <tr>
       <th>03/15/23</th>
-      <td>IRONCLAD</td>
-      <td>Asc 12</td>
+      <td>WATCHER</td>
+      <td>Asc 14</td>
       <td>51</td>
       <td>No</td>
       <td>Y</td>
     </tr>
     <tr>
       <th>03/15/23</th>
-      <td>WATCHER</td>
-      <td>Asc 14</td>
+      <td>IRONCLAD</td>
+      <td>Asc 12</td>
       <td>51</td>
       <td>No</td>
       <td>Y</td>
@@ -991,14 +1015,6 @@
       <th>03/13/23</th>
       <td>SILENT</td>
       <td>Asc 14</td>
-      <td>51</td>
-      <td>No</td>
-      <td>Y</td>
-    </tr>
-    <tr>
-      <th>03/12/23</th>
-      <td>WATCHER</td>
-      <td>Asc 13</td>
       <td>51</td>
       <td>No</td>
       <td>Y</td>
@@ -1020,12 +1036,12 @@
       <td>N</td>
     </tr>
     <tr>
-      <th>03/11/23</th>
-      <td>SILENT</td>
-      <td>Asc 14</td>
-      <td>8</td>
+      <th>03/12/23</th>
+      <td>WATCHER</td>
+      <td>Asc 13</td>
+      <td>51</td>
       <td>No</td>
-      <td>N</td>
+      <td>Y</td>
     </tr>
     <tr>
       <th>03/11/23</th>
@@ -1036,34 +1052,18 @@
       <td>N</td>
     </tr>
     <tr>
-      <th>03/10/23</th>
-      <td>WATCHER</td>
-      <td>No Asc</td>
-      <td>51</td>
-      <td>No</td>
-      <td>Y</td>
-    </tr>
-    <tr>
-      <th>03/10/23</th>
-      <td>SILENT</td>
-      <td>Asc 13</td>
-      <td>51</td>
-      <td>No</td>
-      <td>Y</td>
-    </tr>
-    <tr>
-      <th>03/10/23</th>
+      <th>03/11/23</th>
       <td>SILENT</td>
       <td>Asc 14</td>
-      <td>7</td>
+      <td>8</td>
       <td>No</td>
       <td>N</td>
     </tr>
     <tr>
       <th>03/10/23</th>
-      <td>SILENT</td>
-      <td>Asc 14</td>
-      <td>16</td>
+      <td>DEFECT</td>
+      <td>Asc 12</td>
+      <td>22</td>
       <td>No</td>
       <td>N</td>
     </tr>
@@ -1077,16 +1077,32 @@
     </tr>
     <tr>
       <th>03/10/23</th>
-      <td>DEFECT</td>
-      <td>Asc 12</td>
-      <td>22</td>
+      <td>SILENT</td>
+      <td>Asc 14</td>
+      <td>16</td>
       <td>No</td>
       <td>N</td>
     </tr>
     <tr>
-      <th>03/09/23</th>
-      <td>IRONCLAD</td>
-      <td>Asc 11</td>
+      <th>03/10/23</th>
+      <td>SILENT</td>
+      <td>Asc 14</td>
+      <td>7</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/10/23</th>
+      <td>SILENT</td>
+      <td>Asc 13</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/10/23</th>
+      <td>WATCHER</td>
+      <td>No Asc</td>
       <td>51</td>
       <td>No</td>
       <td>Y</td>
@@ -1100,18 +1116,18 @@
       <td>N</td>
     </tr>
     <tr>
+      <th>03/09/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 11</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
       <th>03/08/23</th>
       <td>IRONCLAD</td>
       <td>Asc 11</td>
       <td>40</td>
-      <td>No</td>
-      <td>N</td>
-    </tr>
-    <tr>
-      <th>03/07/23</th>
-      <td>IRONCLAD</td>
-      <td>Asc 11</td>
-      <td>33</td>
       <td>No</td>
       <td>N</td>
     </tr>
@@ -1122,6 +1138,14 @@
       <td>51</td>
       <td>No</td>
       <td>Y</td>
+    </tr>
+    <tr>
+      <th>03/07/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 11</td>
+      <td>33</td>
+      <td>No</td>
+      <td>N</td>
     </tr>
     <tr>
       <th>03/07/23</th>
@@ -1167,23 +1191,23 @@
       <th>03/02/23</th>
       <td>SILENT</td>
       <td>Asc 10</td>
-      <td>16</td>
-      <td>No</td>
-      <td>N</td>
-    </tr>
-    <tr>
-      <th>03/02/23</th>
-      <td>SILENT</td>
-      <td>Asc 10</td>
-      <td>16</td>
-      <td>No</td>
-      <td>N</td>
-    </tr>
-    <tr>
-      <th>03/02/23</th>
-      <td>SILENT</td>
-      <td>Asc 10</td>
       <td>29</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/02/23</th>
+      <td>WATCHER</td>
+      <td>Asc 12</td>
+      <td>38</td>
+      <td>No</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>03/02/23</th>
+      <td>SILENT</td>
+      <td>Asc 10</td>
+      <td>16</td>
       <td>No</td>
       <td>N</td>
     </tr>
@@ -1197,9 +1221,9 @@
     </tr>
     <tr>
       <th>03/02/23</th>
-      <td>WATCHER</td>
-      <td>Asc 12</td>
-      <td>38</td>
+      <td>SILENT</td>
+      <td>Asc 10</td>
+      <td>16</td>
       <td>No</td>
       <td>N</td>
     </tr>
@@ -1221,6 +1245,14 @@
     </tr>
     <tr>
       <th>02/23/23</th>
+      <td>DEFECT</td>
+      <td>Asc 10</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>02/23/23</th>
       <td>SILENT</td>
       <td>Asc 9</td>
       <td>13</td>
@@ -1236,8 +1268,8 @@
       <td>N</td>
     </tr>
     <tr>
-      <th>02/23/23</th>
-      <td>DEFECT</td>
+      <th>02/22/23</th>
+      <td>WATCHER</td>
       <td>Asc 10</td>
       <td>51</td>
       <td>No</td>
@@ -1247,14 +1279,6 @@
       <th>02/22/23</th>
       <td>SILENT</td>
       <td>Asc 8</td>
-      <td>51</td>
-      <td>No</td>
-      <td>Y</td>
-    </tr>
-    <tr>
-      <th>02/22/23</th>
-      <td>WATCHER</td>
-      <td>Asc 10</td>
       <td>51</td>
       <td>No</td>
       <td>Y</td>
@@ -1271,6 +1295,14 @@
       <th>02/21/23</th>
       <td>IRONCLAD</td>
       <td>Asc 8</td>
+      <td>51</td>
+      <td>No</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>02/21/23</th>
+      <td>IRONCLAD</td>
+      <td>Asc 8</td>
       <td>33</td>
       <td>No</td>
       <td>N</td>
@@ -1292,9 +1324,9 @@
       <td>Y</td>
     </tr>
     <tr>
-      <th>02/21/23</th>
-      <td>IRONCLAD</td>
-      <td>Asc 8</td>
+      <th>02/20/23</th>
+      <td>WATCHER</td>
+      <td>Asc 7</td>
       <td>51</td>
       <td>No</td>
       <td>Y</td>
@@ -1306,14 +1338,6 @@
       <td>37</td>
       <td>No</td>
       <td>N</td>
-    </tr>
-    <tr>
-      <th>02/20/23</th>
-      <td>WATCHER</td>
-      <td>Asc 7</td>
-      <td>51</td>
-      <td>No</td>
-      <td>Y</td>
     </tr>
     <tr>
       <th>02/18/23</th>
@@ -1343,7 +1367,7 @@
       <th>02/13/23</th>
       <td>WATCHER</td>
       <td>Asc 6</td>
-      <td>40</td>
+      <td>33</td>
       <td>No</td>
       <td>N</td>
     </tr>
@@ -1351,7 +1375,7 @@
       <th>02/13/23</th>
       <td>WATCHER</td>
       <td>Asc 6</td>
-      <td>33</td>
+      <td>40</td>
       <td>No</td>
       <td>N</td>
     </tr>
