@@ -67,6 +67,12 @@
       <td>0.27</td>
     </tr>
     <tr>
+      <th>UPGRADE_CARD</th>
+      <td>1</td>
+      <td>4</td>
+      <td>0.25</td>
+    </tr>
+    <tr>
       <th>RANDOM_COMMON_RELIC</th>
       <td>2</td>
       <td>9</td>
@@ -88,12 +94,6 @@
       <th>THREE_CARDS</th>
       <td>0</td>
       <td>5</td>
-      <td>0.00</td>
-    </tr>
-    <tr>
-      <th>UPGRADE_CARD</th>
-      <td>0</td>
-      <td>3</td>
       <td>0.00</td>
     </tr>
     <tr>
