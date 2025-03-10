@@ -1,0 +1,21 @@
+:root {
+    --mainGreen: #324444;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--mainGreen);
+}
+
+#navbar {
+    max-height: 15%;
+}
+
+#title-logo {
+    max-height: 15%;
+    width: fit-content;
+}
